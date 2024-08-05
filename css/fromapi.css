@@ -1,0 +1,35 @@
+.one-third {
+    width: 30%;
+    margin: 1%;
+    list-style-type: none;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.case-studies-summary {
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+}
+ul {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+} 
